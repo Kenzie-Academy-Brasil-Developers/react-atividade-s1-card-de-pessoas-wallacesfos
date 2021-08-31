@@ -5,13 +5,25 @@
 .dev-card{
   border: 2px solid black;
   width:200px;
-  margin: 10px;
-  background-color:aqua;
+  height: 150px;
+  margin: 15px;
+  background-color:white;
 }
+
+.dev-card:hover{
+  width: 210px;
+  height: 165px;
+  box-shadow: 20px 20px 10px
+}
+
 .dev-name{
+  margin-top: 0;
   background-color: blue;
   text-align: center;
   color: white;
+}
+.dev-h4{
+  text-align: center;
 }
 
 @media (max-width:768px){
