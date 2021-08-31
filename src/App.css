@@ -1,0 +1,22 @@
+.App{
+  display: flex;
+  justify-content: center;
+}
+.dev-card{
+  border: 2px solid black;
+  width:200px;
+  margin: 10px;
+  background-color:aqua;
+}
+.dev-name{
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width:768px){
+  .App{
+    flex-direction: column;
+    align-items: center;
+  }
+}
